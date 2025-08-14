@@ -1,26 +1,56 @@
 [
   {
-    "title": "Community Meetup",
-    "date": "2025-08-14T18:00:00",
-    "location": "Online",
-    "link": "https://www.princeton.edu/events/2025/lewis-center-arts-info-session"
+    "title": "Conservation Biology of the Giant Panda",
+    "date": "2025-09-08T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/conservation-biology-giant-panda"
   },
   {
-    "title": "Tech Talk: Modern JavaScript",
-    "date": "2025-08-15T14:30:00",
-    "location": "Downtown Library",
-    "link": "https://www.princeton.edu/events/2025/field-hockey-vs-university-british-columbia"
+    "title": "Design, Execution, and Political Economy: Lessons from the CHIPS Act for the Future of Industrial Policy",
+    "date": "2025-09-15T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/design-execution-and-political-economy-lessons-chips-act-future-industrial-policy"
   },
   {
-    "title": "Weekend Farmers Market",
-    "date": "2025-08-16T09:00:00",
-    "location": "Central Park",
-    "link": "https://www.princeton.edu/events/2025/worship-service"
+    "title": "Applied Environmental Diplomacy: A Path Towards Peace",
+    "date": "2025-09-22T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/applied-environmental-diplomacy-path-towards-peace"
   },
   {
-    "title": "Advanced Git Workshop",
-    "date": "2025-08-15T10:00:00",
-    "location": "Co-working Space",
-    "link": "https://www.princeton.edu/events/2025/university-holiday-labor-day"
+    "title": "Aligning Evidence for Impact: Disaster Research in an Era of Federal Retrenchment",
+    "date": "2025-09-29T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/aligning-evidence-impact-disaster-research-era-federal-retrenchment"
+  }
+  { 
+    "title": "Emerging Challenges in Meeting Health Driven Air Quality Standards in the U.S. and India",
+    "date": "2025-10-06T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/emerging-challenges-meeting-health-driven-air-quality-standards-us-and-india"
+  }
+  { 
+    "title": "Plant-Level Technology Pathways for Cost-Effective Decarbonization",
+    "date": "2025-10-20T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/plant-level-technology-pathways-cost-effective-decarbonization"
+  }
+  { 
+    "title": "TBD",
+    "date": "2025-10-27T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/tbd"
+  }
+  { 
+    "title": "Book Talk - Barons: Money, Power, and the Corruption of America's Food Industry",
+    "date": "2025-11-03T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/book-talk-barons-money-power-and-corruption-americas-food-industry"
+  }
+  { 
+    "title": "Framing ‘the Climate Issue’ 40 Years After the 1985 Villach Conference: What Has Been Achieved and What is Still to Achieve?",
+    "date": "2025-11-17T12:15:00",
+    "location": "300 Wallace Hall (CPREE)",
+    "link": "https://cpree.princeton.edu/events/2025/framing-%E2%80%98-climate-issue%E2%80%99-40-years-after-1985-villach-conference-what-has-been-achieved"
   }
 ]
