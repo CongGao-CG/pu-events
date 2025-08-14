@@ -110,6 +110,15 @@ header, footer {
     color: #0056b3;
 }
 
+.event-card h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.event-card h2 a:hover {
+    text-decoration: underline;
+}
+
 .event-card p {
     margin: 5px 0 0;
     color: #555;

@@ -110,8 +110,14 @@ document.addEventListener('DOMContentLoaded', () => {
         upcomingEvents.forEach(event => {
             const eventCard = document.createElement('div');
             eventCard.className = 'event-card';
+            
+            // Create title with optional link
+            const titleHTML = event.link 
+                ? `<h2><a href="${event.link}" target="_blank" rel="noopener noreferrer">${event.title}</a></h2>`
+                : `<h2>${event.title}</h2>`;
+            
             eventCard.innerHTML = `
-                <h2>${event.title}</h2>
+                ${titleHTML}
                 <p><strong>When:</strong> ${formatEventDate(event.date)}</p>
                 <p><strong>Where:</strong> ${event.location}</p>
             `;

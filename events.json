@@ -2,21 +2,25 @@
   {
     "title": "Community Meetup",
     "date": "2025-08-14T18:00:00",
-    "location": "Online"
+    "location": "Online",
+    "link": "https://www.princeton.edu/events/2025/lewis-center-arts-info-session",
   },
   {
     "title": "Tech Talk: Modern JavaScript",
     "date": "2025-08-15T14:30:00",
     "location": "Downtown Library"
+    "link": "https://www.princeton.edu/events/2025/field-hockey-vs-university-british-columbia", 
   },
   {
     "title": "Weekend Farmers Market",
     "date": "2025-08-16T09:00:00",
-    "location": "Central Park"
+    "location": "Central Park",
+    "link": "https://www.princeton.edu/events/2025/worship-service",
   },
   {
     "title": "Advanced Git Workshop",
     "date": "2025-08-15T10:00:00",
-    "location": "Co-working Space"
+    "location": "Co-working Space",
+    "link": "https://www.princeton.edu/events/2025/university-holiday-labor-day",
   }
 ]
