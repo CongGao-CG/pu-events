@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming Events</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/vanilla-js-calendar@2.6.0/build/vanilla-js-calendar.min.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Upcoming Events</h1>
+        <p>Showing events for today and tomorrow.</p>
     </header>
-
-    <div class="main-content">
-        <div id="calendar-container"></div>
-
-        <div id="events-list-container">
-            <h2 id="events-list-title">Events for Today & Tomorrow</h2>
-            <div id="events-container">
-                </div>
+    
+    <main class="container">
+        <!-- Calendar -->
+        <div class="calendar">
+            <div class="calendar-header" id="calendar-month-year"></div>
+            <div class="calendar-grid" id="calendar-grid">
+                <!-- Day headers -->
+                <div class="calendar-day-header">Sun</div>
+                <div class="calendar-day-header">Mon</div>
+                <div class="calendar-day-header">Tue</div>
+                <div class="calendar-day-header">Wed</div>
+                <div class="calendar-day-header">Thu</div>
+                <div class="calendar-day-header">Fri</div>
+                <div class="calendar-day-header">Sat</div>
+                <!-- Calendar days will be added here by JavaScript -->
+            </div>
         </div>
-    </div>
-
+        
+        <!-- Events List -->
+        <div id="events-container"></div>
+    </main>
+    
     <footer>
-        <p>Click a date on the calendar to see events for that day.</p>
+        <p>Events updated automatically.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-js-calendar@2.6.0/build/vanilla-js-calendar.min.js"></script>
-
+    
     <script src="script.js"></script>
 </body>
 </html>

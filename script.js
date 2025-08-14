@@ -1,92 +1,136 @@
+// Wait for the HTML document to be fully loaded before running the script
 document.addEventListener('DOMContentLoaded', () => {
-    // Keep references to our HTML elements
     const eventsContainer = document.getElementById('events-container');
-    const eventsListTitle = document.getElementById('events-list-title');
-
-    let allEvents = []; // To store all fetched events
-
-    // Helper function to get a date in 'YYYY-MM-DD' format
-    const getYYYYMMDD = (date) => {
-        return date.toISOString().split('T')[0];
-    };
-
-    // --- Renders events for a specific date or a date range ---
-    function renderEvents(filterDate) {
-        eventsContainer.innerHTML = ''; // Clear the current list
-
-        let eventsToShow;
-        if (filterDate) {
-            // Filter for a single specific day
-            const filterDateStr = getYYYYMMDD(filterDate);
-            eventsListTitle.innerText = `Events for ${filterDate.toLocaleDateString()}`;
-            eventsToShow = allEvents.filter(event => getYYYYMMDD(new Date(event.date)) === filterDateStr);
-        } else {
-            // Default: show events for today and tomorrow
-            eventsListTitle.innerText = 'Events for Today & Tomorrow';
-            const todayStr = getYYYYMMDD(new Date());
-            const tomorrow = new Date();
-            tomorrow.setDate(tomorrow.getDate() + 1);
-            const tomorrowStr = getYYYYMMDD(tomorrow);
-            
-            eventsToShow = allEvents.filter(event => {
-                const eventDateStr = getYYYYMMDD(new Date(event.date));
-                return eventDateStr === todayStr || eventDateStr === tomorrowStr;
-            });
+    const calendarGrid = document.getElementById('calendar-grid');
+    const monthYearElement = document.getElementById('calendar-month-year');
+    
+    // Function to format the date and time nicely
+    function formatEventDate(dateString) {
+        const options = { weekday: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
+        const date = new Date(dateString);
+        return date.toLocaleTimeString('en-US', options);
+    }
+    
+    // Create calendar
+    function createCalendar(events) {
+        const now = new Date();
+        const currentMonth = now.getMonth();
+        const currentYear = now.getFullYear();
+        const today = now.getDate();
+        
+        // Set month/year header
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                            'July', 'August', 'September', 'October', 'November', 'December'];
+        monthYearElement.textContent = `${monthNames[currentMonth]} ${currentYear}`;
+        
+        // Get first day of month and number of days
+        const firstDay = new Date(currentYear, currentMonth, 1).getDay();
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const daysInPrevMonth = new Date(currentYear, currentMonth, 0).getDate();
+        
+        // Create a set of days that have events
+        const eventDays = new Set();
+        events.forEach(event => {
+            const eventDate = new Date(event.date);
+            if (eventDate.getMonth() === currentMonth && eventDate.getFullYear() === currentYear) {
+                eventDays.add(eventDate.getDate());
+            }
+        });
+        
+        // Clear existing calendar days (keep headers)
+        const dayHeaders = 7;
+        while (calendarGrid.children.length > dayHeaders) {
+            calendarGrid.removeChild(calendarGrid.lastChild);
         }
         
-        if (eventsToShow.length === 0) {
-            eventsContainer.innerHTML = '<p>No events scheduled for this day.</p>';
+        // Add days from previous month
+        for (let i = firstDay - 1; i >= 0; i--) {
+            const dayDiv = document.createElement('div');
+            dayDiv.className = 'calendar-day other-month';
+            dayDiv.textContent = daysInPrevMonth - i;
+            calendarGrid.appendChild(dayDiv);
+        }
+        
+        // Add days of current month
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dayDiv = document.createElement('div');
+            dayDiv.className = 'calendar-day';
+            dayDiv.textContent = day;
+            
+            if (day === today) {
+                dayDiv.classList.add('today');
+            }
+            
+            if (eventDays.has(day)) {
+                dayDiv.classList.add('has-event');
+            }
+            
+            calendarGrid.appendChild(dayDiv);
+        }
+        
+        // Add days from next month to fill the grid
+        const totalCells = calendarGrid.children.length - dayHeaders;
+        const weeksNeeded = Math.ceil((firstDay + daysInMonth) / 7);
+        const cellsNeeded = weeksNeeded * 7;
+        const remainingCells = cellsNeeded - totalCells;
+        
+        for (let day = 1; day <= remainingCells; day++) {
+            const dayDiv = document.createElement('div');
+            dayDiv.className = 'calendar-day other-month';
+            dayDiv.textContent = day;
+            calendarGrid.appendChild(dayDiv);
+        }
+    }
+    
+    // Display today's and tomorrow's events
+    function displayUpcomingEvents(events) {
+        // Get today's and tomorrow's dates (ignoring time for comparison)
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const tomorrow = new Date(today);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        
+        const upcomingEvents = events.filter(event => {
+            const eventDate = new Date(event.date);
+            eventDate.setHours(0, 0, 0, 0); // Normalize event date
+            
+            // Check if the event is today or tomorrow
+            return eventDate.getTime() === today.getTime() || eventDate.getTime() === tomorrow.getTime();
+        });
+        
+        if (upcomingEvents.length === 0) {
+            eventsContainer.innerHTML = '<p>No events scheduled for today or tomorrow.</p>';
             return;
         }
-
-        // Sort events by time and display them
-        eventsToShow.sort((a, b) => new Date(a.date) - new Date(b.date));
-        eventsToShow.forEach(event => {
+        
+        // Sort events by time
+        upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+        
+        // Create and display a card for each upcoming event
+        upcomingEvents.forEach(event => {
             const eventCard = document.createElement('div');
             eventCard.className = 'event-card';
-            const eventTime = new Date(event.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-            
             eventCard.innerHTML = `
                 <h2>${event.title}</h2>
-                <p><strong>When:</strong> ${eventTime}</p>
+                <p><strong>When:</strong> ${formatEventDate(event.date)}</p>
                 <p><strong>Where:</strong> ${event.location}</p>
             `;
+            
             eventsContainer.appendChild(eventCard);
         });
     }
-
-    // --- Fetch data and initialize everything ---
+    
+    // Fetch the events data
     fetch('events.json')
         .then(response => response.json())
         .then(events => {
-            allEvents = events;
-
-            // Get a unique list of dates that have events
-            const eventDates = [...new Set(events.map(event => getYYYYMMDD(new Date(event.date))))];
-
-            // Initialize the Calendar
-            const options = {
-                // Actions triggered by user interaction
-                actions: {
-                    clickDay(e, dates) {
-                        if (dates[0]) {
-                           renderEvents(new Date(dates[0]));
-                        }
-                    },
-                },
-                // Dates to highlight on the calendar
-                dates: {
-                    marked: eventDates,
-                }
-            };
-            const calendar = new VanillaCalendar('#calendar-container', options);
-            calendar.init();
-
-            // Initially, show events for today and tomorrow
-            renderEvents(null); 
+            createCalendar(events);
+            displayUpcomingEvents(events);
         })
         .catch(error => {
             console.error('Error fetching events:', error);
             eventsContainer.innerHTML = '<p>Could not load events. Please try again later.</p>';
+            // Still try to create an empty calendar
+            createCalendar([]);
         });
 });

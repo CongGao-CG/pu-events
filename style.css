@@ -1,32 +1,112 @@
-/* ... keep all your existing styles ... */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
 
-.main-content {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
-    gap: 30px; /* Space between calendar and list */
-    max-width: 1200px;
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
-#calendar-container {
-    flex: 1; /* Allows the container to grow */
-    min-width: 350px; /* Ensures calendar doesn't get too squished */
+/* Calendar Styles */
+.calendar {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#events-list-container {
-    flex: 1; /* Allows the container to grow */
-    min-width: 300px;
-}
-
-#events-list-title {
-    margin-top: 0;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-}
-
-/* Style for days with events */
-.vanilla-js-calendar-day_is-marked {
-    background-color: #0056b320; /* A light blue highlight */
-    color: #0056b3;
+.calendar-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2em;
     font-weight: bold;
+    color: #0056b3;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.calendar-day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    background: #fff;
+    cursor: default;
+    position: relative;
+}
+
+.calendar-day.other-month {
+    color: #ccc;
+}
+
+.calendar-day.today {
+    background: #0056b3;
+    color: white;
+    font-weight: bold;
+}
+
+.calendar-day.has-event {
+    font-weight: bold;
+}
+
+.calendar-day.has-event::after {
+    content: '•';
+    position: absolute;
+    bottom: 2px;
+    color: #0056b3;
+    font-size: 1.2em;
+}
+
+.calendar-day.has-event.today::after {
+    color: white;
+}
+
+/* Events Section */
+#events-container {
+    margin-top: 30px;
+}
+
+.event-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.event-card h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.event-card p {
+    margin: 5px 0 0;
+    color: #555;
 }
