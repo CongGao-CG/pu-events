@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Community Meetup",
+    "date": "2025-08-14T18:00:00",
+    "location": "Online"
+  },
+  {
+    "title": "Tech Talk: Modern JavaScript",
+    "date": "2025-08-15T14:30:00",
+    "location": "Downtown Library"
+  },
+  {
+    "title": "Weekend Farmers Market",
+    "date": "2025-08-16T09:00:00",
+    "location": "Central Park"
+  },
+  {
+    "title": "Advanced Git Workshop",
+    "date": "2025-08-15T10:00:00",
+    "location": "Co-working Space"
+  }
+]
