@@ -23,15 +23,18 @@ header, footer {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .calendar-header {
     text-align: center;
-    margin-bottom: 15px;
-    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-size: 1em;
     font-weight: bold;
     color: #0056b3;
 }
@@ -39,15 +42,15 @@ header, footer {
 .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 5px;
+    gap: 2px;
 }
 
 .calendar-day-header {
     text-align: center;
     font-weight: bold;
-    padding: 5px;
+    padding: 3px;
     color: #666;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 .calendar-day {
@@ -59,6 +62,7 @@ header, footer {
     background: #fff;
     cursor: default;
     position: relative;
+    font-size: 0.85em;
 }
 
 .calendar-day.other-month {
@@ -78,9 +82,9 @@ header, footer {
 .calendar-day.has-event::after {
     content: '•';
     position: absolute;
-    bottom: 2px;
+    bottom: 1px;
     color: #0056b3;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .calendar-day.has-event.today::after {
