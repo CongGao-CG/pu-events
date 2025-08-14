@@ -1,33 +1,32 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}
-header, footer {
-    text-align: center;
-    margin-bottom: 20px;
-}
-#events-container {
-    max-width: 800px;
+/* ... keep all your existing styles ... */
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
+    gap: 30px; /* Space between calendar and list */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
 }
-.event-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+#calendar-container {
+    flex: 1; /* Allows the container to grow */
+    min-width: 350px; /* Ensures calendar doesn't get too squished */
 }
-.event-card h2 {
+
+#events-list-container {
+    flex: 1; /* Allows the container to grow */
+    min-width: 300px;
+}
+
+#events-list-title {
     margin-top: 0;
-    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
-.event-card p {
-    margin: 5px 0 0;
-    color: #555;
+
+/* Style for days with events */
+.vanilla-js-calendar-day_is-marked {
+    background-color: #0056b320; /* A light blue highlight */
+    color: #0056b3;
+    font-weight: bold;
 }
