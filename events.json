@@ -1,5 +1,77 @@
 [
   {
+    "title": "Sulin Zhang",
+    "date": "2025-09-03T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-sulin-zhang-pennsylvania-state-university"
+  },
+  {
+    "title": "Patrick Hopkins",
+    "date": "2025-09-10T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-patrick-hopkins-university-virginia"
+  },
+  {
+    "title": "Zak Page",
+    "date": "2025-09-24T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-zak-page-university-texas-austin"
+  },
+  {
+    "title": "Manish Kumar",
+    "date": "2025-10-01T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-manish-kumar-university-texas-austin"
+  },
+  {
+    "title": "Emma Lejeune",
+    "date": "2025-10-08T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-emma-lejeune-boston-university"
+  },
+  {
+    "title": "Joerg Werner",
+    "date": "2025-10-22T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-joerg-werner-boston-university"
+  },
+  {
+    "title": "Rob Hickey",
+    "date": "2025-10-29T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-rob-hickey-pennsylvania-state-university"
+  },
+  {
+    "title": "Alberto Salleo",
+    "date": "2025-11-05T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-alberto-salleo-stanford-university"
+  },
+  {
+    "title": "Ayse Asatekin",
+    "date": "2025-11-12T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-ayse-asatekin-tufts-university" 
+  },
+  {
+    "title": "Thomas Kempa",
+    "date": "2025-11-19T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-thomas-kempa-johns-hopkins-university"
+  },
+  {
+    "title": "Nick Jackson",
+    "date": "2025-12-03T11:30:00",
+    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-nick-jackson-university-illinois-urbana-champaign"
+  },
+  {
+    "title": "Postdoc Appreciation Lunch",
+    "date": "2025-09-17T12:00:00",
+    "location": "Friend Center, Convocation Room 113 (Engineering)",
+    "link": "https://engineering.princeton.edu/events/postdoc-appreciation-lunch-2"
+  },
+  {
     "title": "Makerspace Open House",
     "date": "2025-09-25T16:00:00",
     "location": "Equad H219",
