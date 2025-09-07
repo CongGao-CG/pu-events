@@ -1,128 +1,140 @@
 [
   {
     "title": "The Physics of John Hopfield",
+    "date": "2025-09-10T16:30:00",
+    "location": "B205 Equad (ECE)",
+    "link": "https://ece.princeton.edu/events/scalable-quantum-compilation"
+  },
+  {
+    "title": "Wireless Power Transfer: A Paradigm Shift for the Next Generation",
+    "date": "2025-10-16T16:30:00",
+    "location": "B205 Equad (ECE)",
+    "link": "https://ece.princeton.edu/events/wireless-power-transfer-paradigm-shift-next-generation"
+  },
+  {
+    "title": "The Physics of John Hopfield",
     "date": "2025-11-12T09:00:00 (TBD)",
-    "location": "Room 407 @ Jadwin Hall (PCTS)",
+    "location": "Room 407 Jadwin Hall (PCTS)",
     "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
   },
   {
     "title": "The Physics of John Hopfield",
     "date": "2025-11-13T09:00:00 (TBD)",
-    "location": "Room 407 @ Jadwin Hall (PCTS)",
+    "location": "Room 407 Jadwin Hall (PCTS)",
     "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
   },
   {
     "title": "The Physics of John Hopfield",
     "date": "2025-11-14T09:00:00 (TBD)",
-    "location": "Room 407 @ Jadwin Hall (PCTS)",
+    "location": "Room 407 Jadwin Hall (PCTS)",
     "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
   },
   {
     "title": "Furnishing Fascism: Modernist Design and Politics in Italy",
     "date": "2025-09-09T17:00:00",
-    "location": "N017 @ School of Architecture (MANDM)",
+    "location": "N017 School of Architecture (MANDM)",
     "link":"https://mandm.princeton.edu/events/2025/ignacio-g-gal%C3%A1n-furnishing-fascism"
   },
   {
     "title": "Infrastructures of Finance and the Postindustrial City",
     "date": "2025-09-10T12:00:00",
-    "location": "South Gallery @ School of Architecture (ARC-HUM)",
+    "location": "South Gallery School of Architecture (ARC-HUM)",
     "link": "https://arc-hum.princeton.edu/news/announcing-fall-2025-mellon-forum-urban-environment"
   },
   {
     "title": "FINISSAGE | From Las Vegas to Rome: Photographs by Iwan Baan",
     "date": "2025-09-08T18:00:00",
-    "location": "North Gallery @ School of Architecture (SoA)",
+    "location": "North Gallery School of Architecture (SoA)",
     "link":"https://soa.princeton.edu/content/finissage-%7C-las-vegas-rome%3A-photographs-iwan-baan#:~:text=FINISSAGE%20%7C%20From%20Las%20Vegas%20to%20Rome%3A%20Photographs%20by%20Iwan%20Baan,-1%20%2F%201&text=The%20featured%20photographs%20of%20the,the%20social%20uses%20of%20space." 
   },
   {
     "title": "Architecture for Sharing",
     "date": "2025-09-11T18:00:00",
-    "location": "Betts Auditorium @ School of Architecture (SoA)",
+    "location": "Betts Auditorium School of Architecture (SoA)",
     "link":"https://soa.princeton.edu/content/lecture-%7C-architecture-sharing"
   },
   {
     "title": "Scaling Robotic Learning",
     "date": "2025-09-12T11:00:00",
-    "location": "Bowen Hall Auditorium Room 222 (ROBO)",
+    "location": "222 Bowen Hall (ROBO)",
     "link":"https://robo.princeton.edu/seminar"
   },
   {
     "title": "Sulin Zhang",
     "date": "2025-09-03T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-sulin-zhang-pennsylvania-state-university"
   },
   {
     "title": "Patrick Hopkins",
     "date": "2025-09-10T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)", 
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-patrick-hopkins-university-virginia"
   },
   {
     "title": "Zak Page",
     "date": "2025-09-24T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-zak-page-university-texas-austin"
   },
   {
     "title": "Manish Kumar",
     "date": "2025-10-01T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-manish-kumar-university-texas-austin"
   },
   {
     "title": "Emma Lejeune",
     "date": "2025-10-08T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-emma-lejeune-boston-university"
   },
   {
     "title": "Joerg Werner",
     "date": "2025-10-22T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-joerg-werner-boston-university"
   },
   {
     "title": "Rob Hickey",
     "date": "2025-10-29T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-rob-hickey-pennsylvania-state-university"
   },
   {
     "title": "Alberto Salleo",
     "date": "2025-11-05T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-alberto-salleo-stanford-university"
   },
   {
     "title": "Ayse Asatekin",
     "date": "2025-11-12T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-ayse-asatekin-tufts-university" 
   },
   {
     "title": "Thomas Kempa",
     "date": "2025-11-19T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-thomas-kempa-johns-hopkins-university"
   },
   {
     "title": "Nick Jackson",
     "date": "2025-12-03T11:30:00",
-    "location": "Bowen Hall Auditorium Room 222 (PMI)",
+    "location": "222 Bowen Hall (PMI)",
     "link": "https://materials.princeton.edu/events/2025/pmipccm-seminar-series-fall-2025-nick-jackson-university-illinois-urbana-champaign"
   },
   {
     "title": "Postdoc Appreciation Lunch",
     "date": "2025-09-17T12:00:00",
-    "location": "Friend Center, Convocation Room 113 (Engineering)",
+    "location": "113 Friend Center(Engineering)",
     "link": "https://engineering.princeton.edu/events/postdoc-appreciation-lunch-2"
   },
   {
     "title": "Makerspace Open House",
     "date": "2025-09-25T16:00:00",
-    "location": "Equad H219",
+    "location": "H219 Equad",
     "link": "https://kellercenter.princeton.edu/events/makerspace-open-house-0"
   },
   {
@@ -140,19 +152,19 @@
   {
     "title": "ML Reproducibility Challenge",
     "date": "2025-08-21T09:30:00",
-    "location": "The Friend Ceter, Room 101 (AI)",
+    "location": "101 Friend Ceter (AI)",
     "link": "https://ai.princeton.edu/events/2025/ml-reproducibility-challenge"
   },
   {
     "title": "Antoinette Burton",
     "date": "2025-12-11T12:00:00",
-    "location": "Louis A. Simpson International Building, Room A71 (PIIRS)",
+    "location": "A71 Louis A. Simpson International Building (PIIRS)",
     "link": "https://funggfp.princeton.edu/events/2025/fung-public-lecture-antoinette-burton-university-illinois-urbana-champaign"
   },
   {
     "title": "Innovation Forum 2025",
     "date": "2025-10-22T10:30:00",
-    "location": "Frist Campus Center Multipurpose Rooms A-C (kellercenter)",
+    "location": "Multipurpose Rooms A-C Frist Campus Center (kellercenter)",
     "link": "https://kellercenter.princeton.edu/events/innovation-forum-2025"
   },
   {
@@ -208,30 +220,6 @@
     "date": "2025-11-11T12:15:00",
     "location": "306 Sherrerd Hall (CITP)",
     "link": "https://citp.princeton.edu/events/2025/jeremy-foote"
-  },
-  {
-    "title": "Lab Tales: A Science Storytelling Workshop 2025 Day 1",
-    "date": "2025-08-18T09:00:00",
-    "location": "Lewis Library Tree House (CST)",
-    "link": "https://cst.princeton.edu/events/2025/lab-tales-science-storytelling-workshop-2025"
-  },
-  {
-    "title": "Lab Tales: A Science Storytelling Workshop 2025 Day 2",
-    "date": "2025-08-19T09:00:00",
-    "location": "Lewis Library Tree House (CST)",
-    "link": "https://cst.princeton.edu/events/2025/lab-tales-science-storytelling-workshop-2025"
-  },
-  {
-    "title": "Lab Tales: A Science Storytelling Workshop 2025 Day 3",
-    "date": "2025-08-20T09:00:00",
-    "location": "Lewis Library Tree House (CST)",
-    "link": "https://cst.princeton.edu/events/2025/lab-tales-science-storytelling-workshop-2025"
-  },
-  {
-    "title": "Lab Tales: A Science Storytelling Workshop 2025 Day 4",
-    "date": "2025-08-21T09:00:00",
-    "location": "Lewis Library Tree House (CST)",
-    "link": "https://cst.princeton.edu/events/2025/lab-tales-science-storytelling-workshop-2025"
   },
   { 
     "title": "Climate Futures Workshop: Navigating a Shifting Policy Landscape",
@@ -356,7 +344,7 @@
   { 
     "title": "Protecting Present and Future Generations: The Role of Health and Environmental Rights in National Constitutions and International Treaties",
     "date": "2025-09-10T12:00:00",
-    "location": "Robertson Hall Bowl 001 (SPIA)",
+    "location": "Bowl 001 Robertson Hall (SPIA)",
     "link": "https://spia.princeton.edu/events/protecting-present-and-future-generations-role-health-and-environmental-rights-national"
   },
   {
