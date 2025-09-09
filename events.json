@@ -1,4 +1,28 @@
 [
+  {
+    "title": "Chi Jin",
+    "date": "2025-09-29T12:00:00",
+    "location": "103 Bendheim House (CSML)",
+    "link": "https://csml.princeton.edu/events/csml-lunchtime-faculty-seminar"
+  },
+  {
+    i"title": "Andrew Rosen",
+    "date": "2025-10-20T12:00:00",
+    "location": "103 Bendheim House (CSML)",
+    "link": "https://csml.princeton.edu/events/csml-lunchtime-faculty-seminar-0"
+  },
+  {
+    "title": "Matias Cattaneo",
+    "date": "2025-11-10T12:00:00",
+    "location": "103 Bendheim House (CSML)",
+    "link": "https://csml.princeton.edu/events/csml-lunchtime-faculty-seminar-1"
+  },
+  {
+    "title": "Jonathan Cohen",
+    "date": "2025-12-01T12:00:00",
+    "location": "103 Bendheim House (CSML)",
+    "link": "https://csml.princeton.edu/events/csml-lunchtime-faculty-seminar-2"
+  },
   { 
     "title": "Hard-Constrained Neural Networks",
     "date": "2025-09-11T16:30:00",
