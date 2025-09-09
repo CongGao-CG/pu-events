@@ -1,4 +1,76 @@
 [
+  { 
+    "title": "Hard-Constrained Neural Networks",
+    "date": "2025-09-11T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/navid-azizan-mit"
+  },
+  {
+    "title": "In-Context Linear Regression Demystified: Training Dynamics and Mechanistic Interpretability of Multi-Head Softmax Attention", 
+    "date": "2025-09-15T12:15:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/zhuoran-yang-yale-university"
+  },
+  {
+    "title": "Cross-Sectional Learning and Inference for the Stochastic Discount Factor", 
+    "date": "2025-09-22T12:15:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/xinghua-zheng-hong-kong-university-science-and-technology"
+  },
+  {
+    "title": "Dimitris Bertsimas, MIT", 
+    "date": "2025-09-23T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/dimitris-bertsimas-mit"
+  },
+  {
+    "title": "Zhimei Ren, University of Pennsylvania",
+    "date": "2025-09-29T12:15:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/zhimei-ren-university-pennsylvania"
+  },
+  {
+    "title": "Particle exchange Monte Carlo methods for eigenfunction and related nonlinear problems", 
+    "date": "2025-10-01T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/benjamin-zhang-university-north-carolina-chapel-hill"
+  },
+  {
+    "title": "Optimizing Social Impact: Field Deployments, Bandit Algorithms, and the Role of LLM Agents", 
+    "date": "2025-10-07T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "Optimizing Social Impact: Field Deployments, Bandit Algorithms, and the Role of LLM Agents"
+  },
+  {
+    "title": "Integrality properties of kissing polytopes distances", 
+    "date": "2025-10-09T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/antoine-deza-mcmaster-university"
+  },
+  {
+    "title": "Some Recent Developments in Expected Shortfall Regression", 
+    "date": "2025-10-27T12:15:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/xuming-he-washington-university"
+  },
+  {
+    "title": "Yang Feng, New York University", 
+    "date": "2025-11-11T12:15:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/yang-feng-new-york-university"
+  },
+  {
+    "title": "Cardinal-Utility Matching Markets: Pricing is Intractability, but Nash Bargaining Works!", 
+    "date": "2025-11-11T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/vijay-vazirani-university-california-irvine"
+  },
+  {
+    "title": "Yann LeCun, New York University",
+    "date": "2025-11-18T16:30:00",
+    "location": "101 Sherrerd Hall (ORFE)",
+    "link": "https://orfe.princeton.edu/events/2025/yann-lecun-new-york-university"
+  },
   {
     "title": "StudioLab Open House 2025",
     "date": "2025-09-11T17:00:00",
