@@ -1,5 +1,29 @@
 [
   {
+    "title": "Fall Break 2025 Parallel Programming & GPU Bootcamp (Day 1)",
+    "date": "2025-10-13T10:00:00",
+    "location": "Lewis Library 120",
+    "link": "https://researchcomputing.princeton.edu/fall-break-2025-parallel-programming-gpu-bootcamp#comp-arch"
+  },
+  {
+    "title": "Fall Break 2025 Parallel Programming & GPU Bootcamp (Day 2)",
+    "date": "2025-10-14T10:00:00",
+    "location": "Lewis Library 120",
+    "link": "https://researchcomputing.princeton.edu/fall-break-2025-parallel-programming-gpu-bootcamp#comp-arch"
+  },
+  {
+    "title": "A.I. Tools for Your Research with Google Cloud Platform",
+    "date": "2025-10-15T10:00:00",
+    "location": "Julis Romo Rabinowitz Building 399",
+    "link": "https://researchcomputing.princeton.edu/events/2025/ai-tools-your-research-google-cloud-platform"
+  },
+  {
+    "title": "PDC seminar",
+    "date": "2025-09-23T12:00:00",
+    "location": "Julis Romo Rabinowitz Building Room 397",
+    "link": "https://pu-events.netlify.app"
+  },
+  {
     "title": "CEE special seminar",
     "date": "2025-09-24T12:00:00",
     "location": "Maeder Auditorium",
@@ -566,7 +590,7 @@
   {
     "title": "Chiquita Brooks-LaSure",
     "date": "2025-10-01T12:30:00",
-    "location": "TBD Robertson Hall (SPIA)",
+    "location": "Robertson Hall TBD (SPIA)",
     "link": "https://spia.princeton.edu/events/deans-leadership-series-chiquita-brooks-lasure-96-fmr-administrator-centers-medicare-and"
   },
   {
