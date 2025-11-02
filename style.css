@@ -79,16 +79,43 @@ header, footer {
     font-weight: bold;
 }
 
-.calendar-day.has-event::after {
-    content: '•';
+/* remove old single-dot style:
+.calendar-day.has-event::after { ... }
+*/
+
+/* multi-dot layout */
+.event-dots {
     position: absolute;
-    bottom: 1px;
-    color: #0056b3;
-    font-size: 0.9em;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
 }
 
-.calendar-day.has-event.today::after {
-    color: white;
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+/* before 4 pm */
+.dot-am {
+    background: orange;
+}
+
+/* after 4 pm */
+.dot-pm {
+    background: blue;
+}
+
+/* make dots visible over today background */
+.calendar-day.today .dot-am,
+.calendar-day.today .dot-pm {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.7);
 }
 
 /* Events Section */

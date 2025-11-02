@@ -28,12 +28,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
         const daysInPrevMonth = new Date(currentYear, currentMonth, 0).getDate();
         
-        // Create a set of days that have events
-        const eventDays = new Set();
+        // Build per-day event info: day -> { hasBefore4: bool, hasAfter4: bool }
+        const dayEventInfo = {};
         events.forEach(event => {
             const eventDate = new Date(event.date);
             if (eventDate.getMonth() === currentMonth && eventDate.getFullYear() === currentYear) {
-                eventDays.add(eventDate.getDate());
+                const day = eventDate.getDate();
+                const hour = eventDate.getHours();
+                if (!dayEventInfo[day]) {
+                    dayEventInfo[day] = { hasBefore4: false, hasAfter4: false };
+                }
+                if (hour < 16) {
+                    dayEventInfo[day].hasBefore4 = true;
+                } else {
+                    dayEventInfo[day].hasAfter4 = true;
+                }
             }
         });
         
@@ -61,8 +70,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 dayDiv.classList.add('today');
             }
             
-            if (eventDays.has(day)) {
+            const info = dayEventInfo[day];
+            if (info) {
+                // keep a general marker style
                 dayDiv.classList.add('has-event');
+
+                const dotsContainer = document.createElement('div');
+                dotsContainer.className = 'event-dots';
+
+                if (info.hasBefore4) {
+                    const dotAM = document.createElement('span');
+                    dotAM.className = 'dot dot-am';   // orange
+                    dotsContainer.appendChild(dotAM);
+                }
+                if (info.hasAfter4) {
+                    const dotPM = document.createElement('span');
+                    dotPM.className = 'dot dot-pm';   // blue
+                    dotsContainer.appendChild(dotPM);
+                }
+
+                dayDiv.appendChild(dotsContainer);
             }
             
             calendarGrid.appendChild(dayDiv);
