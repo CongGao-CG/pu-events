@@ -1,5 +1,35 @@
 [
   {
+    "title": "Book Talk: Capitalism & Its Critics: A History from the Industrial Revolution to AI",
+    "date": "2025-11-10T16:30:00",
+    "location": "Julis Romo Rabinowitz Building, Bowl A17",
+    "link": "https://spia.princeton.edu/events/book-talk-capitalism-its-critics-history-industrial-revolution-ai"
+  },
+  {
+    "title": "Dilemmas in Inequality Speaker Series: Markus Brauer",
+    "date": "2025-11-10T17:00:00",
+    "location": "Wallace Hall 300",
+    "link": "https://spia.princeton.edu/events/dilemmas-inequality-speaker-series-markus-brauer"
+  },
+  {
+    "title": "Do Liberal Democratic Institutions—as We Know Them—Have a Future?",
+    "date": "2025-11-11T16:30:00",
+    "location": "Robertson Hall, Bowl 001",
+    "link": "https://spia.princeton.edu/events/do-liberal-democratic-institutions-we-know-them-have-future"
+  },
+  {
+    "title": "A Conversation with Rutger Bregman on Moral Ambition",
+    "date": "2025-11-13T17:00:00",
+    "location": "Robertson Hall 016",
+    "link": "https://spia.princeton.edu/events/conversation-rutger-bregman-moral-ambition"
+  },
+  {
+    "title": "The Future of Ukraine Conference",
+    "date": "2025-11-14T09:00:00",
+    "location": "Palmer House",
+    "link": "https://spia.princeton.edu/events/future-ukraine-conference"
+  },
+  {
     "title": "Culture Beyond Country: Strategies of Inclusion in the Global Iranian Diaspora",
     "date": "2025-11-05T12:00:00",
     "location": "East Pyne Building, Room 010",
@@ -8,19 +38,19 @@
   {
     "title": "Mary Gallagher | Admiring Authoritarians: Political Dissatisfaction and Views Toward China in the United States and Germany",
     "date": "2025-11-03T16:30:00",
-    "location": "Louis A. Simpson International Building, Room A71",
+    "location": "LAS A71",
     "link": "https://ccc.princeton.edu/events/mary-gallagher-admiring-authoritarians-political-dissatisfaction-and-views-toward-china"
   },
   {
     "title": "Yue Qian | Pessimistic Future Outlook and Reluctance Toward Marriage and Childbearing in China",
     "date": "2025-11-10T16:30:00",
-    "location": "Louis A. Simpson International Building, Room A71",
+    "location": "LAS A71",
     "link": "https://ccc.princeton.edu/events/yue-qian-pessimistic-future-outlook-and-reluctance-toward-marriage-and-childbearing-china"
   },
   {
     "title": "Walking a Tightrope: Memories of Wu Jieping, Personal Physician to China’s Leaders",
     "date": "2025-11-12T17:00:00",
-    "location": "Louis A. Simpson International Building (room not specified)",
+    "location": "LAS A71",
     "link": "https://ccc.princeton.edu/events/walking-tightrope-memories-wu-jieping-personal-physician-chinas-leaders"
   },
   {
@@ -38,7 +68,7 @@
   {
     "title": "Crom Saunders | The Dogberry Conundrum: Translating Shakespeare into American Sign Language",
     "date": "2025-11-03T12:00:00",
-    "location": "Louis A. Simpson International Building, Room 144",
+    "location": "LAS 144",
     "link": "https://ptic.princeton.edu/events/2025/crom-saunders-dogberry-conundrum-translating-shakespeare-american-sign-language"
   },
   {
@@ -50,31 +80,31 @@
   {
     "title": "Global Seminars Open House",
     "date": "2025-11-11T16:30:00",
-    "location": "Weickert Atrium, Louis A. Simpson International Building",
+    "location": "LAS 171",
     "link": "https://ptic.princeton.edu/events/2025/global-seminars-open-house"
   },
   {
     "title": "Translating America: The United States as Third Culture in Translation",
     "date": "2025-11-17T12:00:00",
-    "location": "Louis A. Simpson International Building, Room 144",
+    "location": "LAS 144",
     "link": "https://ptic.princeton.edu/events/2025/translating-america-united-states-third-culture-translation"
   },
   {
     "title": "'Things that Function Like Truth': Translating Contemporary Poetry from Latin America",
     "date": "2025-12-01T12:00:00",
-    "location": "Louis A. Simpson International Building, Room 144",
+    "location": "LAS 144",
     "link": "https://ptic.princeton.edu/events/2025/things-function-truth-translating-contemporary-poetry-latin-america"
   },
   {
     "title": "Back to the Splendor of Language: The Resilience and the Restless Joy of a Multilingual Poet-Translator",
     "date": "2025-12-08T12:00:00",
-    "location": "Louis A. Simpson International Building, Room 144",
+    "location": "LAS 144",
     "link": "https://ptic.princeton.edu/events/2025/back-splendor-language-resilience-and-restless-joy-multilingual-poet-translator"
   },
   {
     "title": "Masako Hattori | Fung Book Talk: The Age of Youth: American Society and the Two World Wars",
     "date": "2025-11-06T12:00:00",
-    "location": "Louis A. Simpson International Building, Room 144",
+    "location": "LAS 144",
     "link": "https://funggfp.princeton.edu/events/2025/masako-hattori-fung-book-talk-age-youth-american-society-and-two-world-wars"
   },
   {
@@ -176,7 +206,7 @@
   {
     "title": "2025 Thriving as an International Scholar: 8. Job Search in the United States",
     "date": "2025-11-11T16:30:00",
-    "location": "TBD (gradfutures)",
+    "location": "LAS 271 (gradfutures)",
     "link": "https://gradfutures.princeton.edu/events/2025/2025-thriving-international-scholar-8-job-search-united-states"
   },
   {
@@ -858,22 +888,22 @@
     "link": "https://ece.princeton.edu/events/wireless-power-transfer-paradigm-shift-next-generation"
   },
   {
-    "title": "The Physics of John Hopfield",
-    "date": "2025-11-12T09:00:00 (TBD)",
-    "location": "Jadwin Hall 407 (PCTS)",
-    "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
+    "title": "The Physics of John Hopfield Day 1",
+    "date": "2025-11-12T08:30:00",
+    "location": "McDonnell Hall, Room A-02 (PCTS)",
+    "link": "https://pcts.princeton.edu/sites/g/files/toruqf1126/files/documents/FinalAgendaHopfield11.4.pdf"
   },
   {
-    "title": "The Physics of John Hopfield",
-    "date": "2025-11-13T09:00:00 (TBD)",
-    "location": "Jadwin Hall 407 (PCTS)",
-    "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
+    "title": "The Physics of John Hopfield Day 2",
+    "date": "2025-11-13T8:30:00",
+    "location": "McDonnell Hall, Room A-02 (PCTS)",
+    "link": "https://pcts.princeton.edu/sites/g/files/toruqf1126/files/documents/FinalAgendaHopfield11.4.pdf"
   },
   {
-    "title": "The Physics of John Hopfield",
-    "date": "2025-11-14T09:00:00 (TBD)",
-    "location": "Jadwin Hall 407 (PCTS)",
-    "link": "https://pcts.princeton.edu/events/2025/physics-john-hopfield"
+    "title": "The Physics of John Hopfield Day 3",
+    "date": "2025-11-14T09:00:00",
+    "location": "McDonnell Hall, Room A-02 (PCTS)",
+    "link": "https://pcts.princeton.edu/sites/g/files/toruqf1126/files/documents/FinalAgendaHopfield11.4.pdf"
   },
   {
     "title": "Furnishing Fascism: Modernist Design and Politics in Italy",
@@ -1243,8 +1273,8 @@
   },
   {
     "title": "Andrzej Sebastian Duda",
-    "date": "2025-11-13T12:30:00",
-    "location": "Robertson Hall TBD (SPIA)",
+    "date": "2025-11-13T16:30:00",
+    "location": "Robertson Hall 100 (SPIA)",
     "link": "https://spia.princeton.edu/events/deans-leadership-series-he-andrzej-duda-fmr-president-poland-and-dmytro-kuleba-fmr-ukrainian"
   },
   {
