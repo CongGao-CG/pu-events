@@ -348,8 +348,14 @@
     "link": "https://my.princeton.edu/asatp/rsvp_boot?id=1970366"
   },
   {
-    "title": "Industrial Collaborations",
+    "title": "CEE special seminar",
     "date": "2026-01-16T12:00:00",
+    "location": "Maeder Hall Auditorium (CEE)",
+    "link": "https://cee.princeton.edu"
+  },
+  {
+    "title": "Industrial Collaborations",
+    "date": "2026-01-16T11:30:00",
     "location": "Andlinger Center, Romm 103 (PCCM)",
     "link": "https://pccm.princeton.edu/outreach/industrial-collaborations"
   },
