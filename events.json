@@ -576,12 +576,6 @@
     "link": "https://citp.princeton.edu/events/2026/nikhil-garg-recommendations-nyc-high-school-match-and-other-high-stakes-settings"
   },
   {
-    "title": "CITP Seminar: CITP will not host a seminar today due to spring recess",
-    "date": "2026-03-10T12:15:00",
-    "location": "N/A (no seminar)",
-    "link": "https://citp.princeton.edu/events/2026/citp-will-not-host-seminar-today-due-spring-recess"
-  },
-  {
     "title": "CITP Seminar: Beth Semel - Harms Beyond Measure: The Politics of Precision in Automated Mental Healthcare Assessment",
     "date": "2026-03-17T12:15:00",
     "location": "Sherrerd Hall, Room 306 (CITP)",
@@ -1606,5 +1600,59 @@
     "date": "2025-11-19T12:30:00",
     "location": "Robertson Hall, Room TBD (SPIA)",
     "link": "https://spia.princeton.edu/events/deans-leadership-series-helga-maria-schmid-fmr-secretary-general-organization-security-and"
+  },
+  {
+    "title": "Comfort Ero",
+    "date": "2026-02-04T12:15:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-comfort-ero-president-ceo-international-crisis-group"
+  },
+  {
+    "title": "Amb. Linda Thomas-Greenfield",
+    "date": "2026-02-05T12:15:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-amb-linda-thomas-greenfield-fmr-united-states-ambassador-united"
+  },
+  {
+    "title": "Damon Wilson '98",
+    "date": "2026-02-25T12:15:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-damon-wilson-98-president-ceo-national-endowment-democracy"
+  },
+  {
+    "title": "Amandeep Gill",
+    "date": "2026-03-16T12:30:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-amandeep-gill-united-nations-under-secretary-general-and-special"
+  },
+  {
+    "title": "Jim Blew & Roberto Rodriguez",
+    "date": "2026-03-26T12:30:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-constructive-dialogue-us-department-education-fmr-assistant"
+  },
+  {
+    "title": "Helga Maria Schmid",
+    "date": "2026-04-02T12:30:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-helga-maria-schmid-fmr-secretary-general-organization-security-and-0"
+  },
+  {
+    "title": "HRH Amb. Reema Bandar Al-Saud",
+    "date": "2026-04-06T12:30:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-hrh-amb-reema-bandar-al-saud-ambassador-kingdom-saudi-arabia-us"
+  },
+  {
+    "title": "Lt. Col. (Ret.) Alexander Vindman",
+    "date": "2026-04-14T12:30:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-lt-col-ret-alexander-vindman-fmr-director-european-affairs-us"
+  },
+  {
+    "title": "Joseph Kahn",
+    "date": "2026-04-22T12:15:00",
+    "location": "Robertson Hall, Room TBD (SPIA)",
+    "link": "https://spia.princeton.edu/events/deans-leadership-series-joseph-kahn-executive-editor-new-york-times"
   }
 ]
