@@ -1,7 +1,19 @@
 [
   {
+    "title": "Princeton Materials Institute Symposium 2026 (Day 1)",
+    "date": "2026-04-15T08:00:00",
+    "location": "Maeder Hall, Auditorium (PMI)",
+    "link": "https://materials.princeton.edu/events/symposium-2026"
+  },
+ {
+    "title": "Princeton Materials Institute Symposium 2026 (Day 2)",
+    "date": "2026-04-16T08:00:00",
+    "location": "Maeder Hall, Auditorium (PMI)",
+    "link": "https://materials.princeton.edu/events/symposium-2026"
+  },
+  {
     "title": "Environmental Policy Networking Dinner",
-    "date": "2026-02-05T05:30:00",
+    "date": "2026-02-05T17:30:00",
     "location": "Commons Building, Room D301 (SPO)",
     "link": "https://princeton.edu"
   },
@@ -524,7 +536,7 @@
   {
     "title": "CEE special seminar",
     "date": "2026-01-16T12:00:00",
-    "location": "Maeder Hall Auditorium (CEE)",
+    "location": "Maeder Hall, Auditorium (CEE)",
     "link": "https://cee.princeton.edu"
   },
   {
