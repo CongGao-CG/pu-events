@@ -37,9 +37,63 @@
   },
   {
     "title": "Princeton Quantum Colloquium: Entanglement bootstrap program, Isaac Kim (UC Davis)",
-    "date": "2026-02-02T11:50:00",
+    "date": "2026-02-02T12:20:00",
     "location": "Bowen Hall, Room 222 (Quantum)",
     "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-entanglement-bootstrap-program-isaac-kim-uc-davis"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: From diamond defects to protein-based qubit sensors, Peter Maurer (University of Chicago)",
+    "date": "2026-02-16T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-diamond-defects-protein-based-qubit-sensors-peter-maurer"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: Beyond-classical computation with early quantum processors, Xiao Mi (Google AI)",
+    "date": "2026-03-02T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-beyond-classical-computation-early-quantum-processors-xiao-mi"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: When decoding is all you need in quantum, Yihui Quek (École Polytechnique Fédérale de Lausanne)",
+    "date": "2026-03-23T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-when-decoding-all-you-need-quantum-yihui-quek-%C3%A9cole"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: TBD, Jon Simon (Stanford University)",
+    "date": "2026-03-30T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-tbd-jon-simon-stanford-university"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: TBD, Liang Fu (MIT)",
+    "date": "2026-04-06T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-tbd-liang-fu-mit"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: TBD, Kevin O'Brien (MIT)",
+    "date": "2026-04-13T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-tbd-kevin-obrien-mit"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: Quantum circuit as a lens into quantum phases and phase transitions, Xie Chen (Caltech)",
+    "date": "2026-04-20T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-quantum-circuit-lens-quantum-phases-and-phase-transitions-xie"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: Quantum computation and simulation with electron spins, Lieven Vandersypen (TU Delft)",
+    "date": "2026-04-27T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-quantum-computation-and-simulation-electron-spins-lieven"
+  },
+  {
+    "title": "Princeton Quantum Colloquium: TBD, Cheng Chin (University of Chicago)",
+    "date": "2026-05-04T12:20:00",
+    "location": "Bowen Hall, Room 222 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-tbd-cheng-chin-university-chicago"
   },
   {
     "title": "Applied Physics Journal Club: Anran Li",
