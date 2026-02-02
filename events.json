@@ -96,10 +96,22 @@
     "link": "https://quantum.princeton.edu/events/princeton-quantum-colloquium-tbd-cheng-chin-university-chicago"
   },
   {
-    "title": "Applied Physics Journal Club: Anran Li",
-    "date": "2026-01-29T12:00:00",
+    "title": "Applied Physics Journal Club",
+    "date": "2026-02-05T12:00:00",
     "location": "Equad, Room J401 (Quantum)",
-    "link": "https://quantum.princeton.edu/events/applied-physics-journal-club-anran-li-0"
+    "link": "https://quantum.princeton.edu/events/quantum-journal-club"
+  },
+  { 
+    "title": "Applied Physics Journal Club",
+    "date": "2026-02-12T12:00:00",
+    "location": "Equad, Room J401 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/quantum-journal-club"
+  },
+  { 
+    "title": "Applied Physics Journal Club",
+    "date": "2026-02-19T12:00:00",
+    "location": "Equad, Room J401 (Quantum)",
+    "link": "https://quantum.princeton.edu/events/quantum-journal-club"
   },
   {
     "title": "Quantum Group Meeting",
