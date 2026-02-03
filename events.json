@@ -1650,10 +1650,46 @@
     "link": "https://soa.princeton.edu/content/lecture-%7C-architecture-sharing"
   },
   {
-    "title": "Scaling Robotic Learning",
-    "date": "2025-09-12T11:00:00",
+    "title": "Naira Hovakimyan (UIUC)",
+    "date": "2026-02-20T11:00:00",
     "location": "Bowen Hall, Room 222 (ROBO)",
-    "link": "https://robo.princeton.edu/seminar"
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Abhishek Gupta (UW)",
+    "date": "2026-03-06T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Yunzhu Li (Columbia)",
+    "date": "2026-03-20T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Felix Heide (Princeton)",
+    "date": "2026-04-03T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Aditi Raghunathan (CMU)",
+    "date": "2026-04-10T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Marynel Vazquez (Yale)",
+    "date": "2026-04-17T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
+  },
+  {
+    "title": "Tom Dietterich (Oregon)",
+    "date": "2026-05-01T11:00:00",
+    "location": "Bowen Hall, Room 222 (ROBO)",
+    "link": "https://robo.princeton.edu"
   },
   {
     "title": "Sulin Zhang",
