@@ -1,5 +1,53 @@
 [
   { 
+    "title": "Rick Maizels, University of Glasgow",
+    "date": "2026-03-18T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/rick-maizels-university-glasgow"
+  },
+  { 
+    "title": "Zuri Sullivan, Harvard University",
+    "date": "2026-03-25T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/zuri-sullivan-harvard-university"
+  },
+  { 
+    "title": "James Haber, Brandeis University — Fidelity and Infidelity during the repair of a broken chromosome",
+    "date": "2026-04-08T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/james-haber-brandeis-university"
+  },
+  { 
+    "title": "Francis O'Reilly, National Cancer Institute, NIH",
+    "date": "2026-04-15T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/francis-oreilly-national-cancer-institute-nih"
+  },
+  { 
+    "title": "Crystal Rogers, UC-Davis",
+    "date": "2026-04-22T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/crystal-rogers-uc-davis"
+  },
+  { 
+    "title": "Sloan Devlin, Harvard University",
+    "date": "2026-04-29T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/sloan-devlin-harvard-university"
+  },
+  { 
+    "title": "Liling Wan, University of Pennsylvania",
+    "date": "2026-05-06T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/liling-wan-university-pennsylvania"
+  },
+  { 
+    "title": "Stefan Raunser, Max Planck Institute",
+    "date": "2026-05-20T12:10:00",
+    "location": "Lewis Thomas Laboratory, Room 003 (MolBio)",
+    "link": "https://molbio.princeton.edu/events/2026/stefan-raunser-max-planck-institute"
+  },
+  { 
     "title": "CPBF Seminar ⏐Learning without neurons - how a single cell processes information",
     "date": "2026-02-02T12:30:00",
     "location": "Jadwin Hall, Room 102 (Phy)",
