@@ -860,13 +860,13 @@
   {
     "title": "M+Mx25: Exhibition Opening",
     "date": "2026-03-02T18:00:00",
-    "location": "North Gallery, School of Architecture",
+    "location": "SoA, North Gallery",
     "link": "https://mandm.princeton.edu/events/2026/mmx25-exhibition-opening"
   },
   {
     "title": "Branden Hookway Interface 2026",
     "date": "2026-03-31T17:00:00",
-    "location": "Betts Auditorium, School of Architecture",
+    "location": "SoA, Betts Auditorium",
     "link": "https://mandm.princeton.edu/events/2026/branden-hookway-interface-2026"
   },
   {
@@ -1842,6 +1842,12 @@
     "link": "https://humanities.princeton.edu/event/journalism-lunch-talk-carolyn-kormann-in-conversation"
   },
   {
+    "title": "Lecture | Anadis González Márquez & Fernando Martirena: “Against Reality”",
+    "date": "2026-02-12T18:00:00",
+    "location": "SoA, Betts Auditorium",
+    "link": "https://soa.princeton.edu/content/lecture-anadis-gonz%C3%A1lez-m%C3%A1rquez%C2%A0%C2%A0fernando-martirena-against-reality"
+  },
+  {
     "title": "Lecture | where is the sofa?: on housing and inhabitation",
     "date": "2025-09-22T18:00:00",
     "location": "SoA, Betts Auditorium",
@@ -2234,13 +2240,13 @@
   {
     "title": "The Last House on the Block: Black Homeowners, White Homesteaders, and Failed Gentrification in Detroit",
     "date": "2026-02-04T12:00:00",
-    "location": "School of Architecture South Gallery",
+    "location": "SoA, South Gallery",
     "link": "https://arc-hum.princeton.edu/events/last-house-block-black-homeowners-white-homesteaders-and-failed-gentrification-detroit"
   },
   {
     "title": "Born in Flames: The Business of Arson and the Remaking of the American City",
     "date": "2026-02-11T12:00:00",
-    "location": "School of Architecture South Gallery",
+    "location": "SoA, South Gallery",
     "link": "https://arc-hum.princeton.edu/events/born-flames-business-arson-and-remaking-american-city"
   },
   {
@@ -2258,13 +2264,13 @@
   {
     "title": "Infrastructure, Resistance, and the Agency in the South Asian City",
     "date": "2026-03-25T12:00:00",
-    "location": "School of Architecture South Gallery",
+    "location": "SoA, South Gallery",
     "link": "https://arc-hum.princeton.edu/events/infrastructure-resistance-and-agency-south-asian-city"
   },
   {
     "title": "Budget Justice: On Building Grassroots Politics and Solidarities",
     "date": "2026-04-01T12:00:00",
-    "location": "School of Architecture South Gallery",
+    "location": "SoA, South Gallery",
     "link": "https://arc-hum.princeton.edu/events/budget-justice-building-grassroots-politics-and-solidarities"
   },
   {
