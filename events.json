@@ -1,5 +1,11 @@
 [
   {
+    "title": "Title",
+    "date": "2026-01-01T12:00:00",
+    "location": "Building Name, Room XXX (HostDepartmentAbbreviation)",
+    "link": "https://princeton.edu"
+  },
+  {
     "title": "Joint Astrophysics Colloquium: David Kipping \u2014 The Role of Bayesianism and Anthropics in Searches for Life",
     "date": "2026-01-27T11:00:00",
     "location": "Jadwin Hall, Room A10 (Astro)",
@@ -1066,6 +1072,24 @@
     "date": "2026-03-19T12:00:00",
     "location": "LAS, Room 144",
     "link": "https://funggfp.princeton.edu/events/2026/fung-public-seminar-series-masako-hattori-2025-26-fung-global-fellow"
+  },
+  {
+    "title": "GSS Faculty-Graduate Seminar with Katie Donnelly Moran",
+    "date": "2026-03-19T12:00:00",
+    "location": "Corwin Hall, Room 130 (GSS)",
+    "link": "https://gss.princeton.edu/events/faculty-graduate-seminar-series"
+  },
+  {
+    "title": "CSDP Colloquium: Kathleen Thelen (MIT)",
+    "date": "2026-03-19T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://politics.princeton.edu/events/csdp-colloquium-kathleen-thelen-mit"
+  },
+  {
+    "title": "SCPT: Jasper Friedrich (University of Oxford)",
+    "date": "2026-03-19T11:50:00",
+    "location": "Julis Romo Rabinowitz Building, Room 397 (SCPT)",
+    "link": "https://politics.princeton.edu/events/scpt-jasper-friedrich-university-oxford"
   },
   {
     "title": "Fung Public Lecture | Kris Manjapra, Northeastern University",
