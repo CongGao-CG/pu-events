@@ -15,7 +15,12 @@
     <main class="container">
         <!-- Calendar -->
         <div class="calendar">
-            <div class="calendar-header" id="calendar-month-year"></div>
+            <div class="calendar-toolbar" aria-label="Calendar navigation">
+                <button type="button" class="calendar-nav-button" id="prev-month" aria-label="Previous month" title="Previous month">&lsaquo;</button>
+                <div class="calendar-header" id="calendar-month-year" aria-live="polite"></div>
+                <button type="button" class="calendar-nav-button" id="next-month" aria-label="Next month" title="Next month">&rsaquo;</button>
+                <button type="button" class="calendar-current-button" id="current-month">Current</button>
+            </div>
             <div class="calendar-grid" id="calendar-grid">
                 <!-- Day headers -->
                 <div class="calendar-day-header">Sun</div>

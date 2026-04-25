@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const eventsContainer = document.getElementById('events-container');
     const calendarGrid = document.getElementById('calendar-grid');
     const monthYearElement = document.getElementById('calendar-month-year');
+    const previousMonthButton = document.getElementById('prev-month');
+    const nextMonthButton = document.getElementById('next-month');
+    const currentMonthButton = document.getElementById('current-month');
+    const todayDate = new Date();
+    let visibleMonth = new Date(todayDate.getFullYear(), todayDate.getMonth(), 1);
+    let allEvents = [];
     
     // Function to format the date and time nicely
     function formatEventDate(dateString) {
@@ -12,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // Create calendar
-    function createCalendar(events) {
-        const now = new Date();
-        const currentMonth = now.getMonth();
-        const currentYear = now.getFullYear();
-        const today = now.getDate();
+    function createCalendar(events, monthDate = visibleMonth) {
+        const currentMonth = monthDate.getMonth();
+        const currentYear = monthDate.getFullYear();
+        const today = todayDate.getDate();
+        const isCurrentMonth = currentMonth === todayDate.getMonth() && currentYear === todayDate.getFullYear();
         
         // Set month/year header
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -66,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dayDiv.className = 'calendar-day';
             dayDiv.textContent = day;
             
-            if (day === today) {
+            if (isCurrentMonth && day === today) {
                 dayDiv.classList.add('today');
             }
             
@@ -108,6 +114,24 @@ document.addEventListener('DOMContentLoaded', () => {
             calendarGrid.appendChild(dayDiv);
         }
     }
+
+    function moveVisibleMonth(monthOffset) {
+        visibleMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() + monthOffset, 1);
+        createCalendar(allEvents);
+    }
+
+    previousMonthButton.addEventListener('click', () => {
+        moveVisibleMonth(-1);
+    });
+
+    nextMonthButton.addEventListener('click', () => {
+        moveVisibleMonth(1);
+    });
+
+    currentMonthButton.addEventListener('click', () => {
+        visibleMonth = new Date(todayDate.getFullYear(), todayDate.getMonth(), 1);
+        createCalendar(allEvents);
+    });
     
     // Display today's and tomorrow's events
     function displayUpcomingEvents(events) {
@@ -157,6 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('events.json')
         .then(response => response.json())
         .then(events => {
+            allEvents = events;
             createCalendar(events);
             displayUpcomingEvents(events);
         })
