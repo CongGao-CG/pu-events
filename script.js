@@ -12,9 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Function to format the date and time nicely
     function formatEventDate(dateString) {
-        const options = { weekday: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
         const date = new Date(dateString);
-        return date.toLocaleTimeString('en-US', options);
+        const numericDate = date.toLocaleDateString('en-US', {
+            month: '2-digit',
+            day: '2-digit',
+            year: 'numeric'
+        });
+        const weekday = date.toLocaleDateString('en-US', { weekday: 'long' });
+        const time = date.toLocaleTimeString('en-US', {
+            hour: 'numeric',
+            minute: '2-digit',
+            hour12: true
+        });
+
+        return `${numericDate} ${weekday} ${time}`;
     }
     
     // Create calendar
