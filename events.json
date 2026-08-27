@@ -12,6 +12,12 @@
     "link": "https://pph.princeton.edu/events/2026/seminar-title-tbd-0"
   },
   {
+    "title": "CSDP Colloquium: Danielle Thomsen, University of California-Irvine",
+    "date": "2026-12-03T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-danielle-thomsen-university-california-irvine"
+  },
+  {
     "title": "Piran Kidambi",
     "date": "2026-12-02T11:30:00",
     "location": "Bowen Hall, Room 222 (PMI)",
@@ -54,6 +60,12 @@
     "link": "https://soa.princeton.edu"
   },
   {
+    "title": "CSDP Colloquium: Jeremiah Cha, Princeton University CSDP",
+    "date": "2026-11-19T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-jeremiah-cha-princeton-university-csdp"
+  },
+  {
     "title": "Mahesh Mahanthappa",
     "date": "2026-11-18T11:30:00",
     "location": "Bowen Hall, Room 222 (PMI)",
@@ -82,6 +94,12 @@
     "date": "2026-11-12T18:00:00",
     "location": "SoA, Betts Auditorium",
     "link": "https://soa.princeton.edu"
+  },
+  {
+    "title": "CSDP Colloquium: Rachel Potter, University of Virginia",
+    "date": "2026-11-12T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-rachel-potter-university-virginia"
   },
   {
     "title": "Makhsud Saidaminov",
@@ -118,6 +136,12 @@
     "date": "2026-11-05T18:00:00",
     "location": "SoA, Betts Auditorium",
     "link": "https://soa.princeton.edu"
+  },
+  {
+    "title": "CSDP Colloquium: John Sides, Vanderbilt University",
+    "date": "2026-11-05T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-john-sides-vanderbilt-university"
   },
   {
     "title": "Dimitris Lagoudas",
@@ -174,10 +198,22 @@
     "link": "https://opr.princeton.edu/events/2026/local-disamenities-youth-human-capital-and-optimal-zoning-evidence-cannabis"
   },
   {
+    "title": "Skills Workshop: Extracting Structured Data from Unstructured Documents with Claude API",
+    "date": "2026-10-26T16:30:00",
+    "location": "TBD (CSDP)",
+    "link": "https://csdp.princeton.edu/events/skills-workshop-extracting-structured-data-unstructured-documents-claude-api"
+  },
+  {
     "title": "When Federal Climate Policy Works",
     "date": "2026-10-26T12:15:00",
     "location": "Wallace Hall, Room 300 (CPREE)",
     "link": "https://cpree.princeton.edu/events/2026/when-federal-climate-policy-works"
+  },
+  {
+    "title": "CSDP Colloquium: Alexander Hirsch, California Institute of Technology",
+    "date": "2026-10-15T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-alexander-hirsch-california-institute-technology"
   },
   {
     "title": "Alan West",
@@ -208,6 +244,12 @@
     "date": "2026-10-09T12:00:00",
     "location": "252 Nassau St, 2nd floor (PPH)",
     "link": "https://pph.princeton.edu/events/2026/start-healing-first-incision-glymphatic-flow-isometric-movement-and-nutrition-surgical"
+  },
+  {
+    "title": "CSDP Colloquium: Jonathan Mummolo, Princeton University",
+    "date": "2026-10-08T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-jonathan-mummolo-princeton-university"
   },
   {
     "title": "Yuriy Roman",
@@ -252,6 +294,12 @@
     "link": "https://acee.princeton.edu/highlight-seminar-series/"
   },
   {
+    "title": "CSDP Colloquium: Jaclyn Kaslovsky, Washington University in St. Louis: Media Coverage, Gender, and Legislator Behavior",
+    "date": "2026-10-01T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-jaclyn-kaslovsky-washington-university-st-louis-media-coverage-gender-and"
+  },
+  {
     "title": "Amrit Venkatesh",
     "date": "2026-09-30T11:30:00",
     "location": "Bowen Hall, Room 222 (PMI)",
@@ -270,6 +318,12 @@
     "link": "https://opr.princeton.edu/events/2026/century-changing-family-attitudes-united-states-text-based-measures-and-demographic"
   },
   {
+    "title": "Skills Workshop: Working Efficiently with Voter, Consumer, and Campaign Finance Data",
+    "date": "2026-09-28T16:30:00",
+    "location": "TBD (CSDP)",
+    "link": "https://csdp.princeton.edu/events/skills-workshop-working-efficiently-voter-consumer-and-campaign-finance-data"
+  },
+  {
     "title": "Extraction: The Frontiers of Green Capitalism",
     "date": "2026-09-28T12:15:00",
     "location": "Wallace Hall, Room 300 (CPREE)",
@@ -280,6 +334,12 @@
     "date": "2026-09-25T12:00:00",
     "location": "252 Nassau St, 2nd floor (PPH)",
     "link": "https://pph.princeton.edu/events/2026/seminar-title-tbd-1"
+  },
+  {
+    "title": "CSDP Colloquium: Mary Kroeger, UNC-Chapel Hill: Partisan Commenting: Evidence from State Government Involvement in Federal Rulemaking",
+    "date": "2026-09-24T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-mary-kroeger-unc-chapel-hill-partisan-commenting-evidence-state-government"
   },
   {
     "title": "Ryan Lively",
@@ -306,6 +366,12 @@
     "link": "https://cpree.princeton.edu/events/2026/%E2%80%9C-importance-nutrients-soil-c-sequestration-and-implications-ghg-emissions-cropland%E2%80%9D"
   },
   {
+    "title": "Research Workshop: NEWEPS-27",
+    "date": "2026-09-18T12:00:00",
+    "location": "TBD (CSDP)",
+    "link": "https://csdp.princeton.edu/events/research-workshop-neweps-27"
+  },
+  {
     "title": "SoA Lecture Series: Isidoro Michan",
     "date": "2026-09-17T18:00:00",
     "location": "SoA, Betts Auditorium",
@@ -316,6 +382,12 @@
     "date": "2026-09-17T12:30:00",
     "location": "Maeder Hall, Auditorium (ACEE)",
     "link": "https://acee.princeton.edu/events/highlight-seminar-david-cahen/"
+  },
+  {
+    "title": "CSDP Colloquium: Jacqueline Colao, Princeton University CSDP",
+    "date": "2026-09-17T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-jacqueline-colao-princeton-university-csdp"
   },
   {
     "title": "Nuh Gedik",
@@ -354,10 +426,28 @@
     "link": "https://pph.princeton.edu/david-botstein-memorial-symposium"
   },
   {
+    "title": "Skills Workshop: Agentic AI for Political Science Research",
+    "date": "2026-09-10T16:30:00",
+    "location": "TBD (CSDP)",
+    "link": "https://csdp.princeton.edu/events/skills-workshop-agentic-ai-political-science-research"
+  },
+  {
+    "title": "CSDP Colloquium: Welcome and Introductions",
+    "date": "2026-09-10T11:50:00",
+    "location": "Wallace Hall, Room 300 (CSDP)",
+    "link": "https://csdp.princeton.edu/events/csdp-colloquium-welcome-and-introductions"
+  },
+  {
     "title": "Rafael Gomez-Bombarelli",
     "date": "2026-09-09T11:30:00",
     "location": "Bowen Hall, Room 222 (PMI)",
     "link": "https://materials.princeton.edu/events/2026/pmipccm-seminar-series-fall-2026-rafael-gomez-bombarelli-massachusetts-institute"
+  },
+  {
+    "title": "AI Resource Workshop",
+    "date": "2026-09-09T10:00:00",
+    "location": "Maeder Hall, Room 002 Auditorium (DaIS)",
+    "link": "https://dais.princeton.edu/events/2026/ai-resource-workshop"
   },
   {
     "title": "CITP Seminar: Arvind Narayanan - AI Agents and the Augmentation Agenda",
