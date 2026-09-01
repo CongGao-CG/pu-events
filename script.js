@@ -192,6 +192,38 @@ document.addEventListener('DOMContentLoaded', () => {
         createCalendar(allEvents);
     });
 
+    function createEventCard(event, dayClass = '', titleTagName = 'h2') {
+        const eventCard = document.createElement('article');
+        const title = document.createElement(titleTagName);
+        const when = document.createElement('p');
+        const where = document.createElement('p');
+
+        eventCard.className = 'event-card';
+        if (dayClass) {
+            eventCard.classList.add(dayClass);
+        }
+
+        if (event.link) {
+            const link = document.createElement('a');
+            link.href = event.link;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = event.title;
+            title.appendChild(link);
+        } else {
+            title.textContent = event.title;
+        }
+
+        when.innerHTML = `<strong>When:</strong> ${formatEventDate(event.date)}`;
+        where.innerHTML = `<strong>Where:</strong> ${event.location}`;
+
+        eventCard.appendChild(title);
+        eventCard.appendChild(when);
+        eventCard.appendChild(where);
+
+        return eventCard;
+    }
+
     function renderEvents(events, emptyMessage) {
         eventsContainer.innerHTML = '';
 
@@ -205,32 +237,43 @@ document.addEventListener('DOMContentLoaded', () => {
         const sortedEvents = [...events].sort((a, b) => new Date(a.date) - new Date(b.date));
 
         sortedEvents.forEach(event => {
-            const eventCard = document.createElement('div');
-            const title = document.createElement('h2');
-            const when = document.createElement('p');
-            const where = document.createElement('p');
-
-            eventCard.className = 'event-card';
-
-            if (event.link) {
-                const link = document.createElement('a');
-                link.href = event.link;
-                link.target = '_blank';
-                link.rel = 'noopener noreferrer';
-                link.textContent = event.title;
-                title.appendChild(link);
-            } else {
-                title.textContent = event.title;
-            }
-
-            when.innerHTML = `<strong>When:</strong> ${formatEventDate(event.date)}`;
-            where.innerHTML = `<strong>Where:</strong> ${event.location}`;
-
-            eventCard.appendChild(title);
-            eventCard.appendChild(when);
-            eventCard.appendChild(where);
-            eventsContainer.appendChild(eventCard);
+            eventsContainer.appendChild(createEventCard(event));
         });
+    }
+
+    function appendDaySection(label, date, events, modifier) {
+        const section = document.createElement('section');
+        const heading = document.createElement('div');
+        const title = document.createElement('h2');
+        const dateLabel = document.createElement('time');
+
+        section.className = `event-day event-day--${modifier}`;
+        heading.className = 'event-day__heading';
+        title.textContent = label;
+        dateLabel.dateTime = getDateKey(date);
+        dateLabel.textContent = date.toLocaleDateString('en-US', {
+            weekday: 'long',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        heading.appendChild(title);
+        heading.appendChild(dateLabel);
+        section.appendChild(heading);
+
+        if (events.length === 0) {
+            const emptyState = document.createElement('p');
+            emptyState.className = 'event-day__empty';
+            emptyState.textContent = `No events scheduled for ${label.toLowerCase()}.`;
+            section.appendChild(emptyState);
+        } else {
+            const sortedEvents = [...events].sort((a, b) => new Date(a.date) - new Date(b.date));
+            sortedEvents.forEach(event => {
+                section.appendChild(createEventCard(event, `event-card--${modifier}`, 'h3'));
+            });
+        }
+
+        eventsContainer.appendChild(section);
     }
     
     // Display today's and tomorrow's events
@@ -240,16 +283,13 @@ document.addEventListener('DOMContentLoaded', () => {
         tomorrow.setDate(tomorrow.getDate() + 1);
         const todayKey = getDateKey(today);
         const tomorrowKey = getDateKey(tomorrow);
-        
-        const upcomingEvents = events.filter(event => {
-            const eventDate = new Date(event.date);
-            const eventDateKey = getDateKey(eventDate);
-            
-            // Check if the event is today or tomorrow
-            return eventDateKey === todayKey || eventDateKey === tomorrowKey;
-        });
 
-        renderEvents(upcomingEvents, 'No events scheduled for today or tomorrow.');
+        const todayEvents = events.filter(event => getDateKey(new Date(event.date)) === todayKey);
+        const tomorrowEvents = events.filter(event => getDateKey(new Date(event.date)) === tomorrowKey);
+
+        eventsContainer.innerHTML = '';
+        appendDaySection('Today', today, todayEvents, 'today');
+        appendDaySection('Tomorrow', tomorrow, tomorrowEvents, 'tomorrow');
     }
 
     function displayEventsForDate(events, dateKey) {
